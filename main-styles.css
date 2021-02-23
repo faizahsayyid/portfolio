@@ -1,0 +1,78 @@
+.toggle-btn span {
+	width: 40px;
+	height: 4px;
+	background: #000;
+	display: block;
+	margin: 4px;
+}
+
+
+/* The sidebar menu */
+.main-menu {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 200px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.main-menu a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.main-menu a:hover {
+  color: #f1f1f1;
+}
+
+/* Style page content */
+.not-main-menu {
+  margin-left: 200px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+
+@media screen and (max-height: 450px) {
+  .main-menu {padding-top: 15px;}
+  .main-menu a {font-size: 18px;}
+}
+
+.socials ul {
+	list-style-type: none;
+}
+
+.socials li {
+	margin-bottom: 10px;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background: #808080;
+  color: white;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Facebook */
+/*.fa-linkedin {
+  background: #808080;
+  color: white;
+}*/
