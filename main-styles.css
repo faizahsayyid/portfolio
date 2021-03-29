@@ -1,49 +1,38 @@
-.toggle-btn span {
-	width: 40px;
-	height: 4px;
-	background: #000;
-	display: block;
-	margin: 4px;
+title {
+  display: none;
 }
 
+.main-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
 
-/* The sidebar menu */
 .main-menu {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 200px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
-  left: 0;
-  background-color: #111; /* Black */
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 20px;
+  position: fixed; 
+  top: 0; 
+  width: 100%;
 }
 
-/* The navigation menu links */
-.main-menu a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 20px;
-  color: #818181;
+
+
+.main-menu li {
+  float: left;
+}
+
+.main-menu li a {
   display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-/* When you mouse over the navigation links, change their color */
-.main-menu a:hover {
-  color: #f1f1f1;
-}
-
-/* Style page content */
-.not-main-menu {
-  margin-left: 200px; /* Same as the width of the sidebar */
-  padding: 0px 10px;
-}
-
-
-@media screen and (max-height: 450px) {
-  .main-menu {padding-top: 15px;}
-  .main-menu a {font-size: 18px;}
+/* Change the link color to #111 (black) on hover */
+.main-menu li a:hover {
+  background-color: #111;
 }
 
 .socials ul {
@@ -56,6 +45,8 @@
 
 .socials {
 	position: fixed;
+  right: 0px;
+  padding: 75px;
 }
 
 .fa {
@@ -73,4 +64,9 @@
 /* Add a hover effect if you want */
 .fa:hover {
   opacity: 0.7;
+}
+
+.content{
+  margin: 0 auto;
+  padding: 10px;
 }
