@@ -20,13 +20,13 @@ header{
   position: fixed;
 }
 
-.logo {
+header .logo {
   width: 20%;
   float: left;
   line-height: 75px;
 }
 
-.logo a{
+header .logo a{
   text-decoration: none;
   font-size: 20px;
   font-family: "Cinzel";
@@ -35,19 +35,19 @@ header{
   letter-spacing: 5px;
 }
 
-nav .nav-items{
+header nav .nav-items{
   float: left;
   padding-left: 80px;
   line-height: 75px;
 }
 
-nav .socials {
+header nav .socials {
   float: right;
   line-height: 75px;
   padding-right: 10px;
 }
 
-nav a{
+header nav a{
   text-decoration: none;
   font-family: "Raleway";
   font-weight: 400;
@@ -58,12 +58,12 @@ nav a{
   transition-timing-function: ease;
 }
 
-nav .nav-items a:hover {
+header nav .nav-items a:hover {
   opacity: 0.7;
   font-size: 17px;
 }
 
-nav .socials a:hover {
+header nav .socials a:hover {
   opacity: 0.7;
 }
 
@@ -103,7 +103,7 @@ nav .socials a:hover {
   position: relative;
   top: 450px;
   background: #fff;
-  height: 3000px;
+  height: 3500px;
 }
 
 .content-area hr {
@@ -120,6 +120,7 @@ nav .socials a:hover {
   letter-spacing: 2px;
   font-size: 40px;
   padding-top: 6%;
+  padding-bottom: 2%;
 }
 
 .heading {
@@ -158,6 +159,7 @@ nav .socials a:hover {
 }
 
 .climate-change-vid {
+  padding-top: 4%;
   padding-bottom: 4%;
 }
 
@@ -167,12 +169,12 @@ nav .socials a:hover {
 
 
 .digital-art {
-  padding: 4%;
+  padding: 3%;
 }
 
 .dig {
-  width: 300px;
-  height: 400px;
+  width: 335px;
+  height: 440px;
   padding-right: 2%;
 }
 
@@ -183,44 +185,66 @@ nav .socials a:hover {
 .see-more-btn button {
   background-color: #524373;
   border: none;
+  padding: 15px 32px;
+  border-radius: 20px;
+}
+
+.see-more-btn button a {
+  text-decoration: none;
   color: white;
   font-family: "Raleway";
   font-weight: 600;
-  padding: 15px 32px;
-  border-radius: 20px;
   font-size: 16px;
 }
 
 .see-more-btn button:hover {
-  opacity: 0.7;
+  background-color: #8FA8D9;
 }
 
-/*.socials ul {
-	list-style-type: none;
-}
-
-.socials li {
-	margin-bottom: 10px;
-}
-
-.socials {
-	position: fixed;
-  right: 0px;
-  padding: 75px;
-}*/
-
-/*.fa {
-  padding: 10px;
-  font-size: 10px;
-  height: 10px;
-  width: 10px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
+footer {
+  width: 100%;
+  position: relative;
+  top: 450px;
   background: #262626;
-  color: white;
+  height: 350px;
 }
 
-.fa:hover {
+footer .footer-logo {
+  padding-top: 4%; 
+}
+
+footer h1 {
+  font-family: "Cinzel";
+  font-size: 60px;
+  color: #fff;
+}
+
+footer nav .footer-nav {
+  margin: auto;
+  line-height: 75px;
+}
+
+footer nav .footer-socials {
+  margin: auto;
+  padding-right: 10px;
+}
+
+footer nav a{
+  text-decoration: none;
+  font-family: "Raleway";
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 12px;
+  margin: 0 10px;
+  color: #fff;
+  transition-timing-function: ease;
+}
+
+footer nav .footer-nav a:hover {
   opacity: 0.7;
-}*/
+  text-decoration: underline;
+}
+
+footer nav .footer-socials a:hover {
+  opacity: 0.7;
+}
