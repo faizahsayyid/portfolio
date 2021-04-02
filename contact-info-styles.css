@@ -67,41 +67,9 @@ header nav .socials a:hover {
   opacity: 0.7;
 }
 
-.banner-area {
-  width: 100%;
-  height: 500px;
-  position: fixed;
-/*  top: 100px;*/
-/*  background-image: url(images/something.jpg);
-  -webkit-background-size: cover;*/
-  background: linear-gradient(to bottom right, rgba(143,168,217,1) 0%, rgba(191,105,153,1) 50%, rgba(130,84,132,1) 78%, rgba(69,72,140,1) 100%);
-  background-size: cover;
-  background-position: center center;
-}
-
-.banner-area h1 {
-  padding-top: 15%;
-  line-height: 110%;
-  font-size: 70px;
-  font-family: "Cinzel";
-  letter-spacing: 5px;
-/*  text-transform: uppercase;*/
-  color: #fff;
-}
-
-.banner-area h2 {
-/*  line-height: 150px;*/
-  font-size: 18px;
-  text-transform: uppercase;
-  font-family: "Raleway";
-  font-weight: 400;
-  color: #fff;
-}
-
 .content-area {
   width: 100%;
   position: relative;
-  top: 450px;
   background: #fff;
   height: 3500px;
 }
@@ -125,80 +93,6 @@ header nav .socials a:hover {
 
 .heading {
   background: #fff;
-}
-
-.project-highlights {
-  width: 960px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 4%;
-}
-
-.project-highlights p {
-  text-align: left;
-  line-height: 150%;
-  font-family: "Raleway";
-  font-weight: 400;
-  padding: 10px;
-}
-
-.project-highlights p b {
-  font-weight: 600;
-}
-
-.project-highlights h3 {
-  padding: 4%;
-  font-family: "Cinzel";
-  font-size: 25px;
-  text-transform: uppercase;
-  color: #BF6999;
-}
-
-.slime-climb {
-  padding-top: 4%;
-}
-
-.climate-change-vid {
-  padding-top: 4%;
-  padding-bottom: 4%;
-}
-
-.project {
-  padding-bottom: 4%;
-}
-
-
-.digital-art {
-  padding: 3%;
-}
-
-.dig {
-  width: 335px;
-  height: 440px;
-  padding-right: 2%;
-}
-
-.see-more-btn {
-  padding: 4%;
-}
-
-.see-more-btn button {
-  background-color: #524373;
-  border: none;
-  padding: 15px 32px;
-  border-radius: 20px;
-}
-
-.see-more-btn button a {
-  text-decoration: none;
-  color: white;
-  font-family: "Raleway";
-  font-weight: 600;
-  font-size: 16px;
-}
-
-.see-more-btn button:hover {
-  background-color: #8FA8D9;
 }
 
 footer {
