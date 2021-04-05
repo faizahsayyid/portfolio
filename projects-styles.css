@@ -37,7 +37,7 @@ header .logo a{
 
 header nav .nav-items{
   float: left;
-  padding-left: 80px;
+  padding-left: 120px;
   line-height: 75px;
 }
 
@@ -69,6 +69,7 @@ header nav .socials a:hover {
 
 .content-area {
   width: 100%;
+  top:100px;
   position: relative;
   background: #fff;
   height: 3500px;
