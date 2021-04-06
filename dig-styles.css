@@ -103,7 +103,7 @@ header nav .socials a:hover {
   position: relative;
   top: 100px;
   background: #fff;
-  height: 3500px;
+  height: 3100px;
 }
 
 .content-area hr {
@@ -152,6 +152,24 @@ header nav .socials a:hover {
   height: 335px;
   padding-right: 2%;
 }
+
+.digital-art .portrait {
+  width: 500px;
+  height: 600px;
+  padding-right: 2%;
+}
+
+.digital-art .boy {
+  width: 500px;
+  height: 500px;
+  padding-right: 2%;
+}
+
+/*.digital-art .shera {
+  width: 702px;
+  height: 500px;
+  padding-right: 2%;
+}*/
 
 footer {
   width: 100%;
