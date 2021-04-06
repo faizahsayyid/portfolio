@@ -4,7 +4,7 @@
 }
 
 body {
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .wrapper{
@@ -68,17 +68,54 @@ header nav .socials a:hover {
 }
 
 .content-area {
-  width: 100%;
+  top:100px;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
   background: #fff;
-  height: 3500px;
+  height: 700px;
 }
 
-.content-area hr {
-  border-top: 2px solid #8FA8D9;
-  width: 85%;
-  margin: auto;
-  border-radius: 5px;
+/*.about-me .bio {
+  height: 272px;
+}*/
+
+.about-me {
+  padding: 4%;
+}
+
+.about-me p{
+  text-align: left;
+  line-height: 150%;
+  font-family: "Raleway";
+  font-weight: 400;
+  padding: 10px;
+  display: inline;
+}
+
+.about-me .contact-info p, a {
+/*  text-align: left;
+  line-height: 150%;
+  font-family: "Raleway";
+  font-weight: 400;
+  padding: 10px;
+  display: inline;*/
+  color: #BF6999;
+}
+
+.about-me .contact-info {
+  padding: 4%;
+}
+
+.about-me .me-div {
+  vertical-align: middle;
+}
+
+.about-me .me {
+  width: 207px;
+  height: 272px;
+  float: left;
 }
 
 .heading h2 {
@@ -89,6 +126,7 @@ header nav .socials a:hover {
   font-size: 40px;
   padding-top: 6%;
   padding-bottom: 2%;
+  text-align: center;
 }
 
 .heading {
