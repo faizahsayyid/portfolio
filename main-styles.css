@@ -154,6 +154,16 @@ header nav .socials a:hover {
   color: #BF6999;
 }
 
+.project a:link {
+  color: #45488C;
+  text-decoration: underline;
+}
+
+.project a:visited {
+  color: #524373;
+  text-decoration: underline;
+}
+
 .slime-climb {
   padding-top: 4%;
 }
