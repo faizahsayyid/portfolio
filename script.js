@@ -1,0 +1,1 @@
+slimeClimb = document.getElementById("slimeClimb");

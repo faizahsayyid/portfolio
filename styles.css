@@ -1,34 +1,33 @@
-@import 'styles.css';
-
-/* *{
+/* Globals */
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   text-align: center;
 }
 
-.wrapper{
-  width: 1170px;
-  margin: 0 auto;
-}
+/* Header */
 
-header{
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
   height: 75px;
   background: #262626;
   width: 100%;
-  z-index: 12;
   position: fixed;
 }
 
 header .logo {
-  width: 20%;
-  float: left;
-  line-height: 75px;
+  justify-self: start;
+  align-self: center;
 }
 
-header .logo a{
+header .logo a {
   text-decoration: none;
   font-size: 20px;
   font-family: "Cinzel";
@@ -37,19 +36,16 @@ header .logo a{
   letter-spacing: 5px;
 }
 
-header nav .nav-items{
-  float: left;
-  padding-left: 120px;
-  line-height: 75px;
+header .nav-items {
+  justify-self: center;
+  align-self: center;
 }
 
-header nav .socials {
-  float: right;
-  line-height: 75px;
-  padding-right: 10px;
+header .nav-items a {
+  font-size: 15px;
 }
 
-header nav a{
+.nav-text {
   text-decoration: none;
   font-family: "Raleway";
   font-weight: 400;
@@ -60,15 +56,79 @@ header nav a{
   transition-timing-function: ease;
 }
 
-header nav .nav-items a:hover {
+header .socials {
+  justify-self: end;
+  align-self: center;
+}
+
+.fa {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+header .nav-items a:hover {
   opacity: 0.7;
   font-size: 17px;
 }
 
-header nav .socials a:hover {
+header .socials a:hover {
   opacity: 0.7;
 }
 
+/* Footer */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  height: 350px;
+  background: #262626;
+}
+
+footer h1 {
+  font-family: "Cinzel";
+  font-size: 60px;
+  color: #fff;
+}
+
+footer .footer-nav {
+  margin: 25px 0 45px;
+}
+
+footer .footer-nav a {
+  font-size: 12px;
+}
+
+footer .footer-nav a:hover {
+  opacity: 0.7;
+  text-decoration: underline;
+}
+
+footer .footer-socials a:hover {
+  opacity: 0.7;
+}
+
+.content-area {
+  width: 100%;
+}
+
+.content-flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+/*
 .banner-area {
   width: 100%;
   height: 500px;
@@ -236,7 +296,7 @@ footer nav .footer-socials {
   padding-right: 10px;
 }
 
-footer nav a{
+footer nav a {
   text-decoration: none;
   font-family: "Raleway";
   font-weight: 400;
